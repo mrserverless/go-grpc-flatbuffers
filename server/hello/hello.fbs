@@ -1,0 +1,15 @@
+// Generated from hello.proto
+
+namespace hello;
+
+rpc_service Greeter {
+  Say(Request):Response;
+}
+
+table Request {
+  name:string;
+}
+
+table Response {
+  msg:string;
+}
